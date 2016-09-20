@@ -22,7 +22,7 @@ module scenes {
         public start() : void {
             console.log("Menu Scene Started");
 
-            this._menuLabel = new objects.Label("Welcome to Menu Scene", "Comic Sans 60px", "#00008b", config.Screen.CENTER_X, config.Screen.CENTER_Y);
+            this._menuLabel = new objects.Label("AWESOME SAUCE", "Arial 60px", "#00008b", config.Screen.CENTER_X, config.Screen.CENTER_Y);
             this.addChild(this._menuLabel);
 
             // Add button to scene. Register for click callback function
